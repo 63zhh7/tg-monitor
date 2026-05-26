@@ -1,0 +1,30 @@
+name: Fetch Telegram Channel
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch Telegram channel
+        run: python fetch_tg.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add result.json
+          git diff --cached --quiet || (git commit -m "Update: $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)
