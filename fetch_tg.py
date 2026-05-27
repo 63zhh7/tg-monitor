@@ -6,21 +6,20 @@ from datetime import datetime
 CHANNEL = "nanoka_news"
 OUTPUT_FILE = "result.json"
 
-# 多个备选URL
 URLS = [
     f"https://t.me/s/{CHANNEL}",
     f"https://t.me/{CHANNEL}",
 ]
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.230 Mobile Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7",
 }
 
 def try_fetch(url, timeout=20):
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=timeout)
+        resp = requests.get(url, headers=HEADERS, timeout=timeout, verify=False)
         resp.raise_for_status()
         return resp.text
     except Exception as e:
@@ -28,57 +27,31 @@ def try_fetch(url, timeout=20):
         return None
 
 def parse_messages(html):
-    """多策略解析消息"""
     results = []
+    # 寻找每一个消息块
+    # TG 的 HTML 结构通常是每个消息在一个 div.tgme_widget_message_wrap 里
+    blocks = re.findall(r'<div class="tgme_widget_message_wrap[^"]*"[^>]*>(.*?)</div>\s*</div>\s*</div>', html, re.DOTALL)
+    
+    if not blocks:
+        # 如果没找到 wrap，尝试找 message 块
+        blocks = re.findall(r'<div[^>]*class="[^"]*tgme_widget_message[^"]*"[^>]*>(.*?)</div>\s*</div>\s*</div>', html, re.DOTALL)
 
-    # 策略1: 匹配 tgme_widget_message_text
-    texts = re.findall(
-        r'<div class="tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>\s*',
-        html, re.DOTALL
-    )
-    dates = re.findall(
-        r'<time[^>]*datetime="([^"]*)"',
-        html
-    )
-
-    # 策略2: 匹配手机版消息
-    if not texts:
-        # 手机版：找 message 相关的 div
-        texts = re.findall(
-            r'<div class="tgme_widget_message_wrap[^>]*>.*?<div class="tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>',
-            html, re.DOTALL
-        )
-        if not dates:
-            dates = re.findall(
-                r'<time datetime="([^"]+)"',
-                html
-            )
-
-    # 策略3: 直接找所有带文本的 message 元素
-    if not texts:
-        # 匹配任何包含消息内容的块
-        blocks = re.findall(
-            r'<div[^>]*class="[^"]*tgme_widget_message[^"]*"[^>]*>.*?</div>\s*</div>\s*</div>',
-            html, re.DOTALL
-        )
-        for block in blocks[:10]:
-            text = re.sub(r'<[^>]+>', ' ', block)
-            text = re.sub(r'\s+', ' ', text).strip()
-            dt = re.search(r'datetime="([^"]+)"', block)
-            if text and len(text) > 10:
-                results.append({
-                    "time": dt.group(1) if dt else "",
-                    "text": text[:500]
-                })
-        return results
-
-    # 用策略1/2的结果
-    for i, text in enumerate(texts):
+    for block in blocks:
+        # 提取文本
+        text_match = re.search(r'<div class="tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>', block, re.DOTALL)
+        if not text_match:
+            continue
+        
+        text = text_match.group(1)
         text = re.sub(r'<[^>]+>', '', text)
         text = re.sub(r'\s+', ' ', text).strip()
-        dt = dates[i] if i < len(dates) else ""
+        
+        # 提取时间
+        time_match = re.search(r'<time[^>]*datetime="([^"]*)"', block)
+        dt = time_match.group(1) if time_match else ""
+        
         if text:
-            results.append({"time": dt, "text": text[:500]})
+            results.append({"time": dt, "text": text[:1000]})
 
     return results
 
@@ -92,10 +65,9 @@ def main():
         if not html:
             continue
 
-        # 检查是否成功获取到页面
         if "tgme_widget_message" in html or "subscriber" in html.lower() or "nanoka" in html.lower():
             results = parse_messages(html)
-            # 按时间戳降序排列，确保最新的在前面
+            # 按时间降序
             results.sort(key=lambda x: x['time'], reverse=True)
             if results:
                 method = url.replace("https://t.me/", "")
@@ -104,10 +76,6 @@ def main():
                 break
             else:
                 print(f"⚠️ Got page but no messages parsed")
-                # 保存HTML用于调试
-                with open("debug.html", "w", encoding="utf-8") as f:
-                    f.write(html[:5000])
-                print("   Saved debug.html (first 5000 chars)")
         else:
             print(f"⚠️ Page doesn't look like Telegram channel")
 
@@ -122,8 +90,7 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(json.dumps(output, ensure_ascii=False, indent=2))
-    print(f"\n📦 Total: {len(all_results)} messages from {method}")
+    print(f"📦 Total: {len(all_results)} messages saved to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
