@@ -7,11 +7,11 @@
 - 定时抓取 TG 频道消息（每 6 小时自动执行）
 - 自动解析游戏更新信息，提取版本号和更新内容
 - 支持的游戏：
-  - 🎮 绝区零 (Zenless Zone Zero)
-  - 🎮 异环 (Neverness to Everness)
-  - 🎮 原神 (Genshin Impact)
-  - 🎮 崩坏：星穹铁道 (Honkai: Star Rail)
-  - 🎮 鸣潮 (Wuthering Waves)
+  - 绝区零 (Zenless Zone Zero)
+  - 异环 (Neverness to Everness)
+  - 原神 (Genshin Impact)
+  - 崩坏：星穹铁道 (Honkai: Star Rail)
+  - 鸣潮 (Wuthering Waves)
 - 未识别的消息原文保留，不遗漏任何内容
 - 支持通过 QQ 机器人（AstrBot）以合并转发形式查看
 
