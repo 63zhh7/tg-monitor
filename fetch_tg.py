@@ -95,8 +95,8 @@ def main():
         # 检查是否成功获取到页面
         if "tgme_widget_message" in html or "subscriber" in html.lower() or "nanoka" in html.lower():
             results = parse_messages(html)
-                # 按时间戳降序排列，确保最新的在前面
-                results.sort(key=lambda x: x['time'], reverse=True)
+            # 按时间戳降序排列，确保最新的在前面
+            results.sort(key=lambda x: x['time'], reverse=True)
             if results:
                 method = url.replace("https://t.me/", "")
                 all_results = results
