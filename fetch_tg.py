@@ -73,7 +73,7 @@ def parse_messages(html):
         return results
 
     # 用策略1/2的结果
-    for i, text in enumerate(texts[:10]):
+    for i, text in enumerate(texts):
         text = re.sub(r'<[^>]+>', '', text)
         text = re.sub(r'\s+', ' ', text).strip()
         dt = dates[i] if i < len(dates) else ""
@@ -95,6 +95,8 @@ def main():
         # 检查是否成功获取到页面
         if "tgme_widget_message" in html or "subscriber" in html.lower() or "nanoka" in html.lower():
             results = parse_messages(html)
+                # 按时间戳降序排列，确保最新的在前面
+                results.sort(key=lambda x: x['time'], reverse=True)
             if results:
                 method = url.replace("https://t.me/", "")
                 all_results = results
