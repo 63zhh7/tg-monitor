@@ -4,7 +4,7 @@
 
 ## 功能
 
-- 定时抓取 TG 频道消息（每 6 小时自动执行）
+- 定时抓取 TG 频道消息（每天北京时间凌晨 4 点自动执行）
 - 自动解析游戏更新信息，提取版本号和更新内容
 - 支持的游戏：
   - 绝区零 (Zenless Zone Zero)
@@ -49,7 +49,7 @@
 
 1. Fork 本仓库
 2. 在仓库 Settings → Secrets and variables → Actions 中添加 `TG_CHANNEL`（可选，默认 `nanoka_news`）
-3. Actions 会自动每 6 小时执行一次抓取
+3. Actions 会每天北京时间凌晨 4 点自动执行抓取
 
 ### 手动触发
 
