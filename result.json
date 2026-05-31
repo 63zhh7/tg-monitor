@@ -1,9 +1,14 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-05-31T22:41:28.561047Z",
+  "updated": "2026-05-31T22:46:30.048853Z",
   "method": "s/nanoka_news",
   "count": 20,
   "messages": [
+    {
+      "time": "2026-05-31T22:44:10+00:00",
+      "text": "Honkai: Star Rail updated to 4.3&#33;- Mortenax Blade- Reforged in Hellfire",
+      "id": "42dace4c1176"
+    },
     {
       "time": "2026-05-28T01:32:46+00:00",
       "text": "Neverness to Everness updated to 1.1&#33; - Lacrimosa - 众人追寻之物",
@@ -98,13 +103,10 @@
       "time": "2026-05-20T11:49:27+00:00",
       "text": "HexenzirkelTopic... data name changed to AvatarEnhanceTopic... lmao",
       "id": "7c2fef1cc0d9"
-    },
-    {
-      "time": "2026-05-18T03:15:01+00:00",
-      "text": "Genshin Impact updated to 6.6&#33;- Lohen- Nicole- Prune- Disaster and Remorse- Angelos&#39; Heptades- Super Awesome Magic Key",
-      "id": "493ac71782c4"
     }
   ],
-  "new_ids": [],
+  "new_ids": [
+    "42dace4c1176"
+  ],
   "forwarded": []
 }
