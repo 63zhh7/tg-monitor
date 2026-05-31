@@ -1,14 +1,9 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-05-31T22:51:32.569151Z",
+  "updated": "2026-05-31T22:56:39.632708Z",
   "method": "s/nanoka_news",
-  "count": 18,
+  "count": 17,
   "messages": [
-    {
-      "time": "2026-05-31T22:50:06+00:00",
-      "text": "thanks uncle pene",
-      "id": "530217f68c69"
-    },
     {
       "time": "2026-05-31T22:44:10+00:00",
       "text": "Honkai: Star Rail updated to 4.3&#33;- Mortenax Blade- Reforged in Hellfire",
@@ -95,8 +90,6 @@
       "id": "e247f0b1184a"
     }
   ],
-  "new_ids": [
-    "530217f68c69"
-  ],
+  "new_ids": [],
   "forwarded": []
 }
