@@ -1,9 +1,14 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-01T10:29:11.523827Z",
+  "updated": "2026-06-01T10:34:11.224467Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-01T10:31:59+00:00",
+      "text": "Genshin Impact updated to 6.6.52&#33;- Sandrone- Wriothesley- Yae Miko- Cyno- Yumemizuki Mizuki- Qiqi- Diona- Beidou- A Teaspoon of Transcendence- Kagura&#39;s Verity- Cashflow Supervision",
+      "id": "960f907500c1"
+    },
     {
       "time": "2026-05-31T22:44:10+00:00",
       "text": "Honkai: Star Rail updated to 4.3&#33;- Mortenax Blade- Reforged in Hellfire",
@@ -83,13 +88,10 @@
       "time": "2026-05-21T08:18:30+00:00",
       "text": "*ceno character/weapon changes btw",
       "id": "e3adc111c676"
-    },
-    {
-      "time": "2026-05-21T08:18:15+00:00",
-      "text": "Honkai: Star Rail updated to 4.2.54+15087973&#33;- Mortenax Blade- Reforged in Hellfire",
-      "id": "e247f0b1184a"
     }
   ],
-  "new_ids": [],
+  "new_ids": [
+    "960f907500c1"
+  ],
   "forwarded": []
 }
