@@ -1,9 +1,14 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-02T17:27:12.567280Z",
+  "updated": "2026-06-02T20:28:38.265540Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-02T17:49:41+00:00",
+      "text": "Honkai: Star Rail updated to 4.3.51&#33; - Rin Tohsaka - Gilgamesh - Himeko • Nova - A Star That Lights the Night - Flickering Stars - I Am As You Behold",
+      "id": "5a388fbefd94"
+    },
     {
       "time": "2026-06-02T11:44:07+00:00",
       "text": "Wuthering Waves updated to 3.4.1&#33; - Lucilla - Rebecca - Lucy - Spectral Trigger - Skull Thrasher - Freeze Frame",
@@ -83,13 +88,10 @@
       "time": "2026-05-23T12:08:25+00:00",
       "text": "Neverness to Everness updated to 1.1+260523&#33;- Chaos- Iroi- Shinku- 众人追寻之物",
       "id": "03694e408081"
-    },
-    {
-      "time": "2026-05-23T10:50:08+00:00",
-      "text": "Zenless Zone Zero updated to 3.0.4+16057406&#33;- Pyrois- Avatar_Female_Size03_Velina- Avatar_Female_Size01_Norma- Boisterous Echoes- Item_Weapon_S_Common_04_Name- Sol Exuvia- Joyau Dore- Head Lackey",
-      "id": "613de201c017"
     }
   ],
-  "new_ids": [],
+  "new_ids": [
+    "5a388fbefd94"
+  ],
   "forwarded": []
 }
