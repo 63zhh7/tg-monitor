@@ -1,9 +1,29 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-01T23:52:19.912134Z",
+  "updated": "2026-06-02T04:26:39.242723Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-02T03:08:39+00:00",
+      "text": "*currency wars wip",
+      "id": "cb6b42755dad"
+    },
+    {
+      "time": "2026-06-02T02:18:47+00:00",
+      "text": "images updated (except currency)",
+      "id": "35c81327744c"
+    },
+    {
+      "time": "2026-06-02T02:12:30+00:00",
+      "text": "Honkai: Star Rail updated to 4.3.51&#33; - Rin Tohsaka - Gilgamesh - Himeko • Nova - A Star That Lights the Night - Flickering Stars - I Am As You Behold",
+      "id": "63bf840f5ec4"
+    },
+    {
+      "time": "2026-06-02T02:11:15+00:00",
+      "text": "Honkai: Star Rail updated to 4.3.51&#33;- Rin Tohsaka- Gilgamesh- Himeko • Nova- A Star That Lights the Night- Flickering Stars- I Am As You Behold",
+      "id": "3abcec09d6ed"
+    },
     {
       "time": "2026-06-01T10:31:59+00:00",
       "text": "Genshin Impact updated to 6.6.52&#33;- Sandrone- Wriothesley- Yae Miko- Cyno- Yumemizuki Mizuki- Qiqi- Diona- Beidou- A Teaspoon of Transcendence- Kagura&#39;s Verity- Cashflow Supervision",
@@ -68,28 +88,13 @@
       "time": "2026-05-23T10:50:08+00:00",
       "text": "Zenless Zone Zero updated to 3.0.4+16057406&#33;- Pyrois- Avatar_Female_Size03_Velina- Avatar_Female_Size01_Norma- Boisterous Echoes- Item_Weapon_S_Common_04_Name- Sol Exuvia- Joyau Dore- Head Lackey",
       "id": "613de201c017"
-    },
-    {
-      "time": "2026-05-23T06:10:55+00:00",
-      "text": "Wuthering Waves updated to 3.4.3&#33;- Lucilla- Rebecca- Lucy- Spectral Trigger- Skull Thrasher- Freeze Frame",
-      "id": "7cd09b2b0864"
-    },
-    {
-      "time": "2026-05-23T02:15:49+00:00",
-      "text": "guess ye shunguang should rerun, dunno other else...",
-      "id": "f10c6df4dc27"
-    },
-    {
-      "time": "2026-05-23T02:13:21+00:00",
-      "text": "Zenless Zone Zero updated to 3.0.4+16046619&#33;- Pyrois- Avatar_Female_Size03_Velina- Avatar_Female_Size01_Norma- Boisterous Echoes- Item_Weapon_S_Common_04_Name- Sol Exuvia- Joyau Dore- Head Lackey",
-      "id": "476e9c7bee90"
-    },
-    {
-      "time": "2026-05-21T08:18:30+00:00",
-      "text": "*ceno character/weapon changes btw",
-      "id": "e3adc111c676"
     }
   ],
-  "new_ids": [],
+  "new_ids": [
+    "cb6b42755dad",
+    "35c81327744c",
+    "63bf840f5ec4",
+    "3abcec09d6ed"
+  ],
   "forwarded": []
 }
