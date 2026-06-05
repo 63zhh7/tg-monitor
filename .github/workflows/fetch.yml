@@ -27,4 +27,4 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add result.json
-          git diff --cached --quiet || (git commit -m "Update: $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)
+          git diff --cached --quiet || (git commit -m "Update: $(date -u +'%Y-%m-%d %H:%M UTC')" && git pull --rebase && git push)
