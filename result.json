@@ -1,9 +1,14 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-06T06:42:35.095140Z",
+  "updated": "2026-06-06T06:47:42.532653Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-06T06:43:10+00:00",
+      "text": "Wuthering Waves updated to 3.4&#33;- Lucilla- Rebecca- Lucy- Spectral Trigger- Skull Thrasher- Freeze Frame",
+      "id": "19c24741a065"
+    },
     {
       "time": "2026-06-02T17:49:41+00:00",
       "text": "Honkai: Star Rail updated to 4.3.51&#33; - Rin Tohsaka - Gilgamesh - Himeko • Nova - A Star That Lights the Night - Flickering Stars - I Am As You Behold",
@@ -83,13 +88,10 @@
       "time": "2026-05-23T12:08:34+00:00",
       "text": "*cn only",
       "id": "d7704624351a"
-    },
-    {
-      "time": "2026-05-23T12:08:25+00:00",
-      "text": "Neverness to Everness updated to 1.1+260523&#33;- Chaos- Iroi- Shinku- 众人追寻之物",
-      "id": "03694e408081"
     }
   ],
-  "new_ids": [],
+  "new_ids": [
+    "19c24741a065"
+  ],
   "forwarded": []
 }
