@@ -1,9 +1,14 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-07T03:22:52.153918Z",
+  "updated": "2026-06-07T03:27:54.157264Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-07T03:25:46+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.0+16474634&#33;- Nekomata- Rina- Jane",
+      "id": "2575986e51d5"
+    },
     {
       "time": "2026-06-07T03:22:51+00:00",
       "text": "omg awaken characters in 3.1",
@@ -83,15 +88,10 @@
       "time": "2026-05-23T17:18:22+00:00",
       "text": "Zenless Zone Zero updated to 3.0.4+16070472&#33;- Pyrois- Avatar_Female_Size03_Velina- Avatar_Female_Size01_Norma- Boisterous Echoes- Item_Weapon_S_Common_04_Name- Sol Exuvia- Joyau Dore- Head Lackey",
       "id": "19b1b85bbfb0"
-    },
-    {
-      "time": "2026-05-23T14:11:13+00:00",
-      "text": "Zenless Zone Zero updated to 3.0.4+16065545&#33;- Pyrois- Avatar_Female_Size03_Velina- Avatar_Female_Size01_Norma- Boisterous Echoes- Item_Weapon_S_Common_04_Name- Sol Exuvia- Joyau Dore- Head Lackey",
-      "id": "d1ca36a17bb9"
     }
   ],
   "new_ids": [
-    "e742c9072285"
+    "2575986e51d5"
   ],
   "forwarded": []
 }
