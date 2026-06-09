@@ -1,9 +1,19 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-09T02:42:43.548259Z",
+  "updated": "2026-06-09T02:47:44.205359Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-09T02:44:14+00:00",
+      "text": "Gilgamesh&#39;s AA multiplier has issue (200/300/25 doubled to 400/600/50 at lv10) so far we checked - excel has lv1 to lv15 (what we see in nanoka, huroka, gachabase, etc) - lv1 to lv10 client itself shows lv1 value (200/300/25) - lv11 and lv12 client shows lv2…",
+      "id": "4f80ec801587"
+    },
+    {
+      "time": "2026-06-09T02:43:04+00:00",
+      "text": "Honkai: Star Rail updated to 4.3.52&#33;- Rin Tohsaka- Gilgamesh- Himeko • Nova- A Star That Lights the Night- Flickering Stars- I Am As You Behold",
+      "id": "cf7ef02c7a29"
+    },
     {
       "time": "2026-06-08T10:30:48+00:00",
       "text": "Genshin Impact updated to 6.6.53&#33;- Sandrone- Wriothesley- Yae Miko- Cyno- Yumemizuki Mizuki- Qiqi- Diona- Beidou- A Teaspoon of Transcendence- Kagura&#39;s Verity- Cashflow Supervision",
@@ -78,18 +88,11 @@
       "time": "2026-05-31T22:44:10+00:00",
       "text": "Honkai: Star Rail updated to 4.3&#33;- Mortenax Blade- Reforged in Hellfire",
       "id": "42dace4c1176"
-    },
-    {
-      "time": "2026-05-28T01:32:46+00:00",
-      "text": "Neverness to Everness updated to 1.1&#33; - Lacrimosa - 众人追寻之物",
-      "id": "f416dea21902"
-    },
-    {
-      "time": "2026-05-28T01:32:15+00:00",
-      "text": "Neverness to Everness updated to 1.1&#33;- Lacrimosa- 众人追寻之物",
-      "id": "c71ae4223231"
     }
   ],
-  "new_ids": [],
+  "new_ids": [
+    "4f80ec801587",
+    "cf7ef02c7a29"
+  ],
   "forwarded": []
 }
