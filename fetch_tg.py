@@ -68,28 +68,24 @@ def main():
         else:
             print(f"⚠️ Page doesn't look like Telegram channel")
 
-    # 读取上次结果，对比找出新消息
-    new_ids = []
+    # 加载上次结果
+    old_data = {}
     try:
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             old_data = json.load(f)
-        old_ids = {m.get("id", "") for m in old_data.get("messages", [])}
-        for m in all_results:
-            if m["id"] not in old_ids:
-                new_ids.append(m["id"])
-        print(f"🆕 新消息: {len(new_ids)}/{len(all_results)}")
     except FileNotFoundError:
-        new_ids = [m["id"] for m in all_results]
-        print(f"🆕 首次运行，全部 {len(new_ids)} 条为新消息")
-
-    # 加载已有的转发记录
-    forwarded = []
-    try:
-        with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
-            old_data = json.load(f)
-        forwarded = old_data.get("forwarded", [])
-    except:
         pass
+
+    old_ids = {m.get("id", "") for m in old_data.get("messages", [])}
+    old_new_ids = set(old_data.get("new_ids", []))
+    forwarded = old_data.get("forwarded", [])
+
+    # 对比找出新消息（增量追加到 new_ids）
+    for m in all_results:
+        if m["id"] not in old_ids:
+            old_new_ids.add(m["id"])
+    new_ids = list(old_new_ids)
+    print(f"🆕 新消息(累计未转发): {len(new_ids)}/{len(all_results)}")
 
     output = {
         "channel": CHANNEL,
