@@ -1,6 +1,6 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-11T21:46:17.585195Z",
+  "updated": "2026-06-11T21:51:18.851707Z",
   "method": "s/nanoka_news",
   "count": 18,
   "messages": [
@@ -96,8 +96,8 @@
     }
   ],
   "new_ids": [
-    "8d280a577e40",
-    "c1049e7b1b27"
+    "c1049e7b1b27",
+    "8d280a577e40"
   ],
   "forwarded": []
 }
