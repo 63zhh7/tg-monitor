@@ -1,9 +1,14 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-13T04:57:00.001942Z",
+  "updated": "2026-06-13T05:02:01.429572Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-13T04:59:21+00:00",
+      "text": "Neverness to Everness updated to 1.1+457906&#33;- Lacrimosa- Chaos- What&#39;s Desired",
+      "id": "9002d508a1ff"
+    },
     {
       "time": "2026-06-13T04:30:29+00:00",
       "text": "Zenless Zone Zero updated to 3.1.1+16658727&#33; - Nekomata - Rina - Jane",
@@ -83,17 +88,13 @@
       "time": "2026-06-02T11:44:07+00:00",
       "text": "Wuthering Waves updated to 3.4.1&#33; - Lucilla - Rebecca - Lucy - Spectral Trigger - Skull Thrasher - Freeze Frame",
       "id": "fdd8a3c5b353"
-    },
-    {
-      "time": "2026-06-02T11:43:54+00:00",
-      "text": "Wuthering Waves updated to 3.4.1&#33;- Lucilla- Rebecca- Lucy- Spectral Trigger- Skull Thrasher- Freeze Frame",
-      "id": "ca2993129064"
     }
   ],
   "new_ids": [
     "62bb0c28013f",
+    "c1049e7b1b27",
     "de07568ec285",
-    "c1049e7b1b27"
+    "9002d508a1ff"
   ],
   "forwarded": []
 }
