@@ -1,9 +1,19 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-13T04:26:49.611130Z",
+  "updated": "2026-06-13T04:31:53.403266Z",
   "method": "s/nanoka_news",
-  "count": 18,
+  "count": 20,
   "messages": [
+    {
+      "time": "2026-06-13T04:30:29+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.1+16658727&#33; - Nekomata - Rina - Jane",
+      "id": "de07568ec285"
+    },
+    {
+      "time": "2026-06-13T04:29:35+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.1+16658727&#33;- Nekomata- Rina- Jane",
+      "id": "62bb0c28013f"
+    },
     {
       "time": "2026-06-11T10:16:48+00:00",
       "text": "Genshin Impact updated to 6.6.54&#33;- Sandrone- Wriothesley- Yae Miko- Cyno- Yumemizuki Mizuki- Qiqi- Diona- Beidou- A Teaspoon of Transcendence- Kagura&#39;s Verity- Cashflow Supervision",
@@ -96,7 +106,9 @@
     }
   ],
   "new_ids": [
-    "c1049e7b1b27"
+    "62bb0c28013f",
+    "c1049e7b1b27",
+    "de07568ec285"
   ],
   "forwarded": []
 }
