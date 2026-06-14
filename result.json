@@ -1,9 +1,14 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-14T03:18:05.728713Z",
+  "updated": "2026-06-14T03:23:07.544247Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-14T03:22:38+00:00",
+      "text": "Neverness to Everness updated to 1.1+458646&#33;- Lacrimosa- Chaos- What&#39;s Desired",
+      "id": "2ec88195abde"
+    },
     {
       "time": "2026-06-13T10:03:13+00:00",
       "text": "Zenless Zone Zero updated to 3.1.1+16663529&#33;- Nekomata- Rina- Jane",
@@ -83,19 +88,15 @@
       "time": "2026-06-06T15:57:40+00:00",
       "text": "Zenless Zone Zero updated to 3.0.12+16461425&#33;- Pyrois- Velina- Norma- Boisterous Echoes- Item_Weapon_S_Common_04_Name- Sol Exuvia- Joyau Dore- Chief Sidekick",
       "id": "88aabcbb1052"
-    },
-    {
-      "time": "2026-06-06T06:43:10+00:00",
-      "text": "Wuthering Waves updated to 3.4&#33;- Lucilla- Rebecca- Lucy- Spectral Trigger- Skull Thrasher- Freeze Frame",
-      "id": "19c24741a065"
     }
   ],
   "new_ids": [
+    "2ec88195abde",
+    "91a86c13f622",
     "62bb0c28013f",
     "68a24bf3c180",
-    "c1049e7b1b27",
     "9002d508a1ff",
-    "91a86c13f622",
+    "c1049e7b1b27",
     "de07568ec285"
   ],
   "forwarded": []
