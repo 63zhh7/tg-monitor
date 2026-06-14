@@ -1,9 +1,14 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-14T04:33:30.641659Z",
+  "updated": "2026-06-14T04:38:38.582213Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-14T04:38:05+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.1+16678827&#33;- Nekomata- Rina- Jane",
+      "id": "4c3845725627"
+    },
     {
       "time": "2026-06-14T03:22:38+00:00",
       "text": "Neverness to Everness updated to 1.1+458646&#33;- Lacrimosa- Chaos- What&#39;s Desired",
@@ -83,21 +88,17 @@
       "time": "2026-06-07T03:22:51+00:00",
       "text": "omg awaken characters in 3.1",
       "id": "e742c9072285"
-    },
-    {
-      "time": "2026-06-06T15:57:40+00:00",
-      "text": "Zenless Zone Zero updated to 3.0.12+16461425&#33;- Pyrois- Velina- Norma- Boisterous Echoes- Item_Weapon_S_Common_04_Name- Sol Exuvia- Joyau Dore- Chief Sidekick",
-      "id": "88aabcbb1052"
     }
   ],
   "new_ids": [
+    "c1049e7b1b27",
     "91a86c13f622",
-    "9002d508a1ff",
+    "68a24bf3c180",
+    "62bb0c28013f",
+    "4c3845725627",
     "de07568ec285",
     "2ec88195abde",
-    "c1049e7b1b27",
-    "68a24bf3c180",
-    "62bb0c28013f"
+    "9002d508a1ff"
   ],
   "forwarded": []
 }
