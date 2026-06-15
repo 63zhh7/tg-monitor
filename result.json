@@ -1,9 +1,14 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-15T11:21:06.379634Z",
+  "updated": "2026-06-15T11:26:14.524632Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-15T11:24:19+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.1+16701526&#33;- Nekomata- Rina- Jane",
+      "id": "13fab7b55fe7"
+    },
     {
       "time": "2026-06-15T10:52:29+00:00",
       "text": "Wuthering Waves updated to 3.5.0&#33; - - - - - Azure of Heaven - Dew Imbiber",
@@ -83,26 +88,22 @@
       "time": "2026-06-08T10:30:48+00:00",
       "text": "Genshin Impact updated to 6.6.53&#33;- Sandrone- Wriothesley- Yae Miko- Cyno- Yumemizuki Mizuki- Qiqi- Diona- Beidou- A Teaspoon of Transcendence- Kagura&#39;s Verity- Cashflow Supervision",
       "id": "8f63ad63d011"
-    },
-    {
-      "time": "2026-06-07T06:30:58+00:00",
-      "text": "Zenless Zone Zero updated to 3.1.0+16480306&#33; - Nekomata - Rina - Jane",
-      "id": "a81155b080b0"
     }
   ],
   "new_ids": [
-    "9463779adbb1",
-    "c1049e7b1b27",
-    "de07568ec285",
     "2ec88195abde",
-    "68a24bf3c180",
     "62bb0c28013f",
+    "13fab7b55fe7",
+    "9463779adbb1",
     "83891b32fe87",
-    "91a86c13f622",
+    "68a24bf3c180",
+    "57f01e5f258b",
     "4c3845725627",
     "09f219f60f6f",
-    "57f01e5f258b",
-    "9002d508a1ff"
+    "de07568ec285",
+    "91a86c13f622",
+    "9002d508a1ff",
+    "c1049e7b1b27"
   ],
   "forwarded": []
 }
