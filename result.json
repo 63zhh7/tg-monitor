@@ -1,9 +1,14 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-16T23:01:56.325585Z",
+  "updated": "2026-06-16T23:07:01.843958Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-16T23:02:39+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.1+16701526&#33; - Nekomata - Rina - Jane",
+      "id": "a6fa00883b1f"
+    },
     {
       "time": "2026-06-16T14:02:04+00:00",
       "text": "Genshin Impact updated to 6.6.54+45738258&#33;- Sandrone- Wriothesley- Yae Miko- Cyno- Yumemizuki Mizuki- Qiqi- Diona- Beidou- A Teaspoon of Transcendence- Kagura&#39;s Verity- Cashflow Supervision",
@@ -83,30 +88,26 @@
       "time": "2026-06-11T10:16:48+00:00",
       "text": "Genshin Impact updated to 6.6.54&#33;- Sandrone- Wriothesley- Yae Miko- Cyno- Yumemizuki Mizuki- Qiqi- Diona- Beidou- A Teaspoon of Transcendence- Kagura&#39;s Verity- Cashflow Supervision",
       "id": "8d280a577e40"
-    },
-    {
-      "time": "2026-06-11T10:10:40+00:00",
-      "text": "Neverness to Everness updated to 1.1&#33; - Lacrimosa - 众人追寻之物",
-      "id": "c1049e7b1b27"
     }
   ],
   "new_ids": [
-    "0636bca7c72b",
+    "91a86c13f622",
+    "13fab7b55fe7",
+    "de07568ec285",
+    "6cbb60df01e7",
     "83891b32fe87",
     "2a1211b5d3da",
-    "68a24bf3c180",
-    "2ec88195abde",
-    "9002d508a1ff",
-    "57f01e5f258b",
-    "c1049e7b1b27",
-    "de07568ec285",
-    "91a86c13f622",
-    "9463779adbb1",
-    "6cbb60df01e7",
-    "4c3845725627",
-    "09f219f60f6f",
     "62bb0c28013f",
-    "13fab7b55fe7"
+    "57f01e5f258b",
+    "9463779adbb1",
+    "0636bca7c72b",
+    "2ec88195abde",
+    "68a24bf3c180",
+    "a6fa00883b1f",
+    "09f219f60f6f",
+    "c1049e7b1b27",
+    "4c3845725627",
+    "9002d508a1ff"
   ],
   "forwarded": []
 }
