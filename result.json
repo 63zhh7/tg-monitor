@@ -1,9 +1,14 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-16T13:57:19.708917Z",
+  "updated": "2026-06-16T14:02:30.264350Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-16T14:02:04+00:00",
+      "text": "Genshin Impact updated to 6.6.54+45738258&#33;- Sandrone- Wriothesley- Yae Miko- Cyno- Yumemizuki Mizuki- Qiqi- Diona- Beidou- A Teaspoon of Transcendence- Kagura&#39;s Verity- Cashflow Supervision",
+      "id": "2a1211b5d3da"
+    },
     {
       "time": "2026-06-16T07:24:22+00:00",
       "text": "Wuthering Waves updated to 3.5.1&#33;- - - - - Azure of Heaven- Dew Imbiber",
@@ -83,29 +88,25 @@
       "time": "2026-06-11T10:10:40+00:00",
       "text": "Neverness to Everness updated to 1.1&#33; - Lacrimosa - 众人追寻之物",
       "id": "c1049e7b1b27"
-    },
-    {
-      "time": "2026-06-09T02:44:14+00:00",
-      "text": "Gilgamesh&#39;s AA multiplier has issue (200/300/25 doubled to 400/600/50 at lv10) so far we checked - excel has lv1 to lv15 (what we see in nanoka, huroka, gachabase, etc) - lv1 to lv10 client itself shows lv1 value (200/300/25) - lv11 and lv12 client shows lv2…",
-      "id": "4f80ec801587"
     }
   ],
   "new_ids": [
-    "91a86c13f622",
-    "9002d508a1ff",
+    "57f01e5f258b",
+    "4c3845725627",
     "0636bca7c72b",
-    "68a24bf3c180",
-    "de07568ec285",
     "9463779adbb1",
     "09f219f60f6f",
-    "62bb0c28013f",
-    "57f01e5f258b",
-    "83891b32fe87",
-    "4c3845725627",
     "2ec88195abde",
+    "68a24bf3c180",
+    "13fab7b55fe7",
+    "62bb0c28013f",
+    "91a86c13f622",
+    "83891b32fe87",
+    "9002d508a1ff",
+    "2a1211b5d3da",
+    "de07568ec285",
     "c1049e7b1b27",
-    "6cbb60df01e7",
-    "13fab7b55fe7"
+    "6cbb60df01e7"
   ],
   "forwarded": []
 }
