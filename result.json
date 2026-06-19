@@ -1,6 +1,6 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-19T19:29:15.094789Z",
+  "updated": "2026-06-19T19:34:22.209707Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
@@ -91,25 +91,25 @@
     }
   ],
   "new_ids": [
-    "68a24bf3c180",
-    "9002d508a1ff",
-    "2a1211b5d3da",
-    "4c3845725627",
+    "a6fa00883b1f",
     "c1049e7b1b27",
     "62bb0c28013f",
-    "0636bca7c72b",
-    "5795e1c29c95",
-    "09f219f60f6f",
-    "2ec88195abde",
-    "a6fa00883b1f",
-    "57f01e5f258b",
-    "9463779adbb1",
-    "de07568ec285",
-    "dfcc38ec68bc",
-    "83891b32fe87",
-    "91a86c13f622",
     "13fab7b55fe7",
-    "6cbb60df01e7"
+    "5795e1c29c95",
+    "83891b32fe87",
+    "6cbb60df01e7",
+    "2a1211b5d3da",
+    "68a24bf3c180",
+    "2ec88195abde",
+    "09f219f60f6f",
+    "de07568ec285",
+    "4c3845725627",
+    "dfcc38ec68bc",
+    "9463779adbb1",
+    "0636bca7c72b",
+    "9002d508a1ff",
+    "91a86c13f622",
+    "57f01e5f258b"
   ],
   "forwarded": []
 }
