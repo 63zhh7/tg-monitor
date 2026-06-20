@@ -1,9 +1,14 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-06-20T10:30:15.966454Z",
+  "updated": "2026-06-20T10:35:18.353580Z",
   "method": "s/nanoka_news",
   "count": 17,
   "messages": [
+    {
+      "time": "2026-06-20T10:31:41+00:00",
+      "text": "Wuthering Waves updated to 3.5.3&#33;- - - - - Azure of Heaven- Dew Imbiber",
+      "id": "ba8956f4263e"
+    },
     {
       "time": "2026-06-17T10:42:45+00:00",
       "text": "Wuthering Waves updated to 3.5.2&#33; - - - - - Azure of Heaven - Dew Imbiber",
@@ -83,33 +88,29 @@
       "time": "2026-06-13T04:59:21+00:00",
       "text": "Neverness to Everness updated to 1.1+457906&#33;- Lacrimosa- Chaos- What&#39;s Desired",
       "id": "9002d508a1ff"
-    },
-    {
-      "time": "2026-06-13T04:30:29+00:00",
-      "text": "Zenless Zone Zero updated to 3.1.1+16658727&#33; - Nekomata - Rina - Jane",
-      "id": "de07568ec285"
     }
   ],
   "new_ids": [
+    "ba8956f4263e",
+    "57f01e5f258b",
+    "62bb0c28013f",
+    "9002d508a1ff",
+    "68a24bf3c180",
+    "09f219f60f6f",
+    "dfcc38ec68bc",
+    "2ec88195abde",
     "4c3845725627",
-    "0636bca7c72b",
+    "5795e1c29c95",
+    "2a1211b5d3da",
+    "a6fa00883b1f",
     "9463779adbb1",
+    "c1049e7b1b27",
     "de07568ec285",
     "83891b32fe87",
-    "5795e1c29c95",
-    "13fab7b55fe7",
     "6cbb60df01e7",
-    "c1049e7b1b27",
-    "09f219f60f6f",
-    "2ec88195abde",
-    "a6fa00883b1f",
-    "9002d508a1ff",
-    "57f01e5f258b",
-    "2a1211b5d3da",
-    "68a24bf3c180",
     "91a86c13f622",
-    "dfcc38ec68bc",
-    "62bb0c28013f"
+    "13fab7b55fe7",
+    "0636bca7c72b"
   ],
   "forwarded": []
 }
