@@ -1,72 +1,158 @@
 {
   "channel": "nanoka_news",
-  "updated": "2026-07-14T11:56:10.666602Z",
-  "method": "none",
-  "count": 0,
-  "messages": [],
+  "updated": "2026-07-14T14:02:46.947877Z",
+  "method": "s/nanoka_news",
+  "count": 17,
+  "messages": [
+    {
+      "time": "2026-07-13T14:35:40+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.5+17516165&#33;- Avatar_Female_Size02_Remielle- Avatar_Female_Size03_Sigrid- Nekomata- Rina- Jane- Poem of the Empty Feather Return- ...",
+      "id": "58ea3d58c7d4"
+    },
+    {
+      "time": "2026-07-13T10:24:59+00:00",
+      "text": "Genshin Impact updated to 6.7.52&#33;- Alyosha- Odette- Traveler- Manekina- Traveler- - Emberwell- Whitelake Frostfeather- Exaiphanes Blade- - Blade of Atonement- - Song of the Vigil- - Echoes of the Heart- - Covenant of Frost and Snow- Shatanaya&#39;s Frostsilver- Ashamez&#39;s Thunder- Balsag&#39;s Sunwheel- Frag Crystal - Pyro- Frag Crystal - Hydro- Frag Crystal - Electro- Frag Crystal - Cryo- (test) Shadow Realm Grenade-",
+      "id": "d6ba0b900eb6"
+    },
+    {
+      "time": "2026-07-12T15:21:58+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.5+17500498&#33;- Avatar_Female_Size02_Remielle- Avatar_Female_Size03_Sigrid- Nekomata- Rina- Jane- Poem of the Empty Feather Return- ...",
+      "id": "733c8f9d0483"
+    },
+    {
+      "time": "2026-07-12T13:17:22+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.5+17496639&#33;- Avatar_Female_Size02_Remielle- Avatar_Female_Size03_Sigrid- Nekomata- Rina- Jane- Poem of the Empty Feather Return- ...",
+      "id": "dc25ee30d047"
+    },
+    {
+      "time": "2026-07-12T12:48:26+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.5+17487435&#33;- Avatar_Female_Size02_Remielle- Avatar_Female_Size03_Sigrid- Nekomata- Rina- Jane- Poem of the Empty Feather Return- ...",
+      "id": "7ec1008a6cb3"
+    },
+    {
+      "time": "2026-07-11T03:41:19+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.5+17463384&#33;- Avatar_Female_Size02_Remielle- Avatar_Female_Size03_Sigrid- Nekomata- Rina- Jane- Poem of the Empty Feather Return- ...",
+      "id": "da8e70ec3e32"
+    },
+    {
+      "time": "2026-07-08T03:59:47+00:00",
+      "text": "Wuthering Waves updated to 3.5&#33;- Suisui- Rover: Electro- Rover: Electro- Yangyang: Xuanling- Azure Oath- Firstlight&#39;s Herald",
+      "id": "f75657f8ff99"
+    },
+    {
+      "time": "2026-07-07T23:13:00+00:00",
+      "text": "Neverness to Everness updated to 1.2&#33; (Global ver 484875)- Iroi- Shinku- The Wrong Gate- Blushing Mirage",
+      "id": "09db869d0f1e"
+    },
+    {
+      "time": "2026-07-06T11:00:19+00:00",
+      "text": "Genshin Impact updated to 6.7.51&#33; - Alyosha - Odette - Traveler - Manekina - TPS Traveler - - Emberwell - Whitelake Frostfeather - Exaiphanes Blade - - Blade of Atonement - - Song of the Vigil - - Echoes of the Heart - - Covenant of Frost and Snow - Shatanaya&#39;s…",
+      "id": "2d3e2ec808c9"
+    },
+    {
+      "time": "2026-07-06T10:13:19+00:00",
+      "text": "Genshin Impact updated to 6.7.51&#33;- Alyosha- Odette- Traveler- Manekina- TPS Traveler- - Emberwell- Whitelake Frostfeather- Exaiphanes Blade- - Blade of Atonement- - Song of the Vigil- - Echoes of the Heart- - Covenant of Frost and Snow- Shatanaya&#39;s Frostsilver- Ashamez&#39;s Thunder- Balsag&#39;s Sunwheel- Frag Crystal - Pyro- Frag Crystal - Hydro- Frag Crystal - Electro- Frag Crystal - Cryo- (test) Shadow Realm Grenade-",
+      "id": "820c9a769fee"
+    },
+    {
+      "time": "2026-07-05T09:31:25+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.4+17279672&#33;- Avatar_Female_Size02_Remielle- Avatar_Female_Size03_Sigrid- Nekomata- Rina- Jane- Poem of the Empty Feather Return- ...",
+      "id": "33badd9b71fe"
+    },
+    {
+      "time": "2026-07-05T05:19:07+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.4+17277842&#33;- Avatar_Female_Size02_Remielle- Avatar_Female_Size03_Sigrid- Nekomata- Rina- Jane- Poem of the Empty Feather Return- ...",
+      "id": "999b5c61ac87"
+    },
+    {
+      "time": "2026-07-04T20:23:43+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.4+17275162&#33;- Avatar_Female_Size02_Remielle- Avatar_Female_Size03_Sigrid- Nekomata- Rina- Jane- Poem of the Empty Feather Return- ...",
+      "id": "8624676552ee"
+    },
+    {
+      "time": "2026-07-04T10:15:30+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.4+17261355&#33;- Avatar_Female_Size02_Remielle- Avatar_Female_Size03_Sigrid- Nekomata- Rina- Jane- Poem of the Empty Feather Return- ...",
+      "id": "382f77df0ac4"
+    },
+    {
+      "time": "2026-07-04T06:55:57+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.4+17256074&#33;- Avatar_Female_Size02_Remielle- Avatar_Female_Size03_Sigrid- Nekomata- Rina- Jane- Poem of the Empty Feather Return- ...",
+      "id": "c7272cd55b32"
+    },
+    {
+      "time": "2026-07-04T06:16:47+00:00",
+      "text": "Zenless Zone Zero updated to 3.1.4+17254334&#33;- Avatar_Female_Size02_Remielle- Avatar_Female_Size03_Sigrid- Nekomata- Rina- Jane- Poem of the Empty Feather Return- ...",
+      "id": "e6f128d7417c"
+    },
+    {
+      "time": "2026-07-03T09:27:29+00:00",
+      "text": "Wuthering Waves updated to 3.5.6&#33;- Suisui- - - Yangyang: Xuanling- Azure Oath- Firstlight&#39;s Herald",
+      "id": "0b64508debc7"
+    }
+  ],
   "new_ids": [
-    "58ea3d58c7d4",
-    "a10b020ee801",
-    "db71700659c3",
-    "f75657f8ff99",
-    "51f84f555d68",
-    "0636bca7c72b",
-    "4c3845725627",
+    "9d865e00551c",
+    "805194d45f63",
+    "0e52392b8b17",
+    "7160cb64eae5",
+    "de07568ec285",
     "dfcc38ec68bc",
     "91a86c13f622",
-    "ba8956f4263e",
-    "cdae656dd6c0",
-    "b2119937745c",
-    "8b27dbb9fac1",
-    "e74d344bc3b2",
-    "733c8f9d0483",
-    "68a24bf3c180",
-    "a4a397ee4810",
-    "805194d45f63",
-    "2d3e2ec808c9",
     "5795e1c29c95",
-    "9463779adbb1",
-    "999b5c61ac87",
-    "7ec1008a6cb3",
-    "69abb10c2c34",
-    "c7f36ae17686",
-    "0b64508debc7",
-    "e350c5ff20cc",
-    "7160cb64eae5",
-    "7dc5529e4087",
-    "13fab7b55fe7",
-    "2a1211b5d3da",
-    "0e52392b8b17",
-    "de07568ec285",
-    "c76343c6192c",
-    "21c72e0e556a",
-    "da8e70ec3e32",
-    "e6f128d7417c",
-    "382f77df0ac4",
-    "9bc563fbdf58",
-    "d6ba0b900eb6",
-    "62bb0c28013f",
-    "33badd9b71fe",
-    "9d865e00551c",
-    "09f219f60f6f",
-    "cd019c2b7c7c",
-    "2da062ad5f10",
-    "57f01e5f258b",
-    "0a41d6f8f250",
-    "6cbb60df01e7",
-    "89de55dee3c2",
-    "09db869d0f1e",
-    "2ec88195abde",
-    "4fc8bc3da9bd",
-    "c7272cd55b32",
-    "7a5d4295ae07",
-    "c1049e7b1b27",
-    "8624676552ee",
     "9002d508a1ff",
+    "a4a397ee4810",
+    "2d3e2ec808c9",
+    "0a41d6f8f250",
+    "33badd9b71fe",
+    "8b27dbb9fac1",
+    "69abb10c2c34",
+    "68a24bf3c180",
+    "9bc563fbdf58",
+    "4c3845725627",
+    "2da062ad5f10",
+    "09f219f60f6f",
+    "f75657f8ff99",
+    "7ec1008a6cb3",
+    "0b64508debc7",
+    "c7272cd55b32",
+    "4fc8bc3da9bd",
+    "51f84f555d68",
+    "21c72e0e556a",
+    "7a5d4295ae07",
+    "0636bca7c72b",
+    "c7f36ae17686",
     "83891b32fe87",
-    "a6fa00883b1f",
     "820c9a769fee",
-    "dc25ee30d047"
+    "db71700659c3",
+    "cdae656dd6c0",
+    "cd019c2b7c7c",
+    "c76343c6192c",
+    "58ea3d58c7d4",
+    "2ec88195abde",
+    "e74d344bc3b2",
+    "d6ba0b900eb6",
+    "a6fa00883b1f",
+    "62bb0c28013f",
+    "ba8956f4263e",
+    "89de55dee3c2",
+    "dc25ee30d047",
+    "b2119937745c",
+    "09db869d0f1e",
+    "57f01e5f258b",
+    "e6f128d7417c",
+    "733c8f9d0483",
+    "7dc5529e4087",
+    "da8e70ec3e32",
+    "c1049e7b1b27",
+    "13fab7b55fe7",
+    "9463779adbb1",
+    "2a1211b5d3da",
+    "e350c5ff20cc",
+    "999b5c61ac87",
+    "382f77df0ac4",
+    "6cbb60df01e7",
+    "a10b020ee801",
+    "8624676552ee"
   ],
   "forwarded": []
 }
